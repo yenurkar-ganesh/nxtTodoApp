@@ -1,7 +1,52 @@
 /* Write your CSS here */
-.list-item{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  box-shadow:
+    rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  width: 280px;
+  border-radius: 8px;
+  padding: 8px;
+}
+.deleteBtn {
+  padding: 8px 24px;
+  background-color: #ef0107;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  color: aliceblue;
+}
+.btn-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+  gap: 20px;
+}
+.editBtn {
+  background-color: #f0f8ff;
+  padding: 8px 24px;
+  border: 1px solid #00308f;
+  outline: none;
+  font-weight: 500;
+  color: #00308f;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.edit-input {
+  margin-right: 10px;
+}
+
+.checkbox {
+  margin-right: 10px;
 }

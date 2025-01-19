@@ -5,6 +5,7 @@ dependencies:
   chalk: 4.1.0
   react: 17.0.1
   react-dom: 17.0.1_react@17.0.1
+  uuid: 11.0.5
 devDependencies:
   eslint-config-airbnb: 18.2.1
   eslint-config-prettier: 8.1.0
@@ -14236,6 +14237,11 @@ packages:
       node: '>= 0.4.0'
     resolution:
       integrity: sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==
+  /uuid/11.0.5:
+    dev: false
+    hasBin: true
+    resolution:
+      integrity: sha512-508e6IcKLrhxKdBbcA2b4KQZlLVp2+J5UwQ6F7Drckkc5N9ZJwFa4TgWtsww9UG8fGHbm6gbV19TdM5pQ4GaIA==
   /uuid/3.4.0:
     deprecated: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
     dev: true
@@ -14916,3 +14922,4 @@ specifiers:
   react: 17.0.1
   react-dom: 17.0.1
   react-scripts: 4.0.3
+  uuid: 11.0.5

@@ -10,6 +10,14 @@
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.29);
   width: 80%;
   margin: 20px auto;
+  /* font-family: DM Sans; */
+  height: auto;
+  font-family: 'Termina Test', sans-serif;
+}
+.todos-container h1 {
+  font-family: 'Termina Test', sans-serif;
+  color: #1d1160;
+  font-size: 48px;
 }
 .btn {
   border: 1px solid #ff0b37;
@@ -18,4 +26,42 @@
   cursor: pointer;
   background-color: #ffffff;
   border-radius: 6px;
+}
+.header-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: 'Termina Test', sans-serif;
+}
+.input {
+  padding: 8px 24px;
+  border-radius: 8px;
+  font-size: 17px;
+  outline: none;
+  border: 2px solid lightgray;
+}
+.add-btn {
+  padding: 8px 24px;
+  background-color: #dda0dd;
+  color: #e6e6fa;
+  font-family: 'Termina Test', sans-serif;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 17px;
+}
+.add-btn:hover {
+  transform: scale(1.02);
+}
+.todo-list-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
 }
